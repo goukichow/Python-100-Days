@@ -31,6 +31,9 @@ def display(balls):
     print(f'\033[034m{balls[-1]:0>2d}\033[0m')
 
 
-n = int(input('生成几注号码: '))
-for _ in range(n):
-    display(choose())
+
+
+if __name__ == '__main__':
+    n = int(input('生成几注号码: '))
+    for _ in range(n):
+        display(choose())
