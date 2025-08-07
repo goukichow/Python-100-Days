@@ -1,4 +1,6 @@
 class Student:
+    __slots__='name', 'age',
+
     def __init__(self, name, age):
         ##初始化属性
         self.name = name
