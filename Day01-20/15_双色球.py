@@ -28,7 +28,7 @@ def display(balls):
     """
     for ball in balls[:-1]:
         print(f'\033[031m{ball:0>2d}\033[0m', end=' ')
-    print(f'\033[034m{balls[-1]:0>2d}\033[0m')
+    print(f'\033[032m{balls[-1]:0>2d}\033[0m')
 
 
 
